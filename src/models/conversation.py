@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-
+from typing import Literal, Optional,Dict,List
 
 class L1Memory(BaseModel):
     """L1 (daily) - 단일 Human/AI 메시지 쌍."""
@@ -25,3 +25,6 @@ class L3Memory(BaseModel):
     kind: str = "monthly"
     month_start: str  # isoformat KST
     created_at: str  # isoformat KST
+
+
+

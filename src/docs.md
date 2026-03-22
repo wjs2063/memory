@@ -24,7 +24,7 @@ API 구현
 
 사용기술 
 
-L1,L2,L3 모두 mongodb 를 사용 
+L1,L2,L3 모두 mongodb 를 사용 / GraphDB는 L3에서 사용할지 생각 
 
 
 
@@ -49,3 +49,5 @@ main.py (메인 실행함수)
 
 
 폴더 : /Users/jeonjaehyeon/Desktop/개발/projects/ai_project/memory/src
+
+
